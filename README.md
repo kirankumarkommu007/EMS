@@ -8,7 +8,7 @@ EMS is a Spring Boot application designed for managing employees. It utilizes Th
 Before you begin, ensure you have the following installed:
 
 - JDK 17
-- Maven
+- Maven 
 - MySQL
 - Git
 - Lombok (installed in your IDE)
@@ -27,37 +27,39 @@ Before you begin, ensure you have the following installed:
    ```
    This branch contains the latest updates for the application.
 
-3. **Set MySQL Properties**
+3. **Set MySQL database**
    ```properties
    spring.datasource.url=jdbc:mysql://localhost:3306/ems_liquibase
-   spring.datasource.username=${MYSQL_USERNAME}
-   spring.datasource.password=${MYSQL_PWD}
    ```
-   - Create a database in MySQL with the name **ems_liquibase**.
-   - Set the environment variables for MySQL credentials.
-
-4. **Set MySQL Environment Variables (Windows)**
-   - Open Command Prompt and run the following commands:
+   - Create a MySQL database named **ems_liquibase**.
+     
+4. **Set MySQL Environment Variables**
+   - Open Command Prompt
+   - Navigate to Your Project Directory
+      ```cmd
+     cd path\to\your\project
+      ```
+   
+    **WINDOWS**
      ```cmd
      set MYSQL_USERNAME=your_mysql_username
      set MYSQL_PWD=your_mysql_password
      ```
+    **LINUX**
 
-5. **Set MySQL Environment Variables (Linux)**
-   - Open a terminal and run the following commands:
      ```bash
      export MYSQL_USERNAME=your_mysql_username
      export MYSQL_PWD=your_mysql_password
      ```
 
 6. **Build and Run the Application**
+      - Open Command Prompt navigate to your project and run the following commands:
    ```bash
    mvn clean install
    mvn spring-boot:run
    ```
-   - If using an IDE, you can run the application directly from there.
 
-7. **Access the Application**
+8. **Access the Application**
    - Once the application is running, you can access it at `http://localhost:3002/hello`.
    - this is public api to check whether the project is running 
 ```
