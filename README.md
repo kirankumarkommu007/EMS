@@ -58,5 +58,6 @@ Before you begin, ensure you have the following installed:
    - If using an IDE, you can run the application directly from there.
 
 7. **Access the Application**
-   - Once the application is running, you can access it at `http://localhost:3002`.
+   - Once the application is running, you can access it at `http://localhost:3002/hello`.
+   - this is public api to check whether the project is running 
 ```
