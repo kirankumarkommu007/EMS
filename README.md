@@ -61,5 +61,5 @@ Before you begin, ensure you have the following installed:
 
 8. **Access the Application**
    - Once the application is running, you can access it at `http://localhost:3002/hello`.
-   - this is public api to check whether the project is running 
+   - this is public api to check whether the project is running you can see message "hi this is ems application"
 
