@@ -36,12 +36,14 @@ This branch contains the latest updates for the application.
 - Update the datasource properties:
 
   ```properties
-  spring.datasource.url=jdbc:mysql://localhost:3306/ems_liquibase
+  spring.datasource.url=jdbc:mysql://localhost:3306/your_database_name
   spring.datasource.username=${your-username}
   spring.datasource.password=${your-password}
   ```
+ 
+  Replace  "your_database_name" with your MySQL database
 
-  Replace `${your-username}` and `${your-password}` with your MySQL credentials.
+  Replace  `${your-username}` and `${your-password}` with your MySQL credentials with Environment variables.
 
 ### 4. Set Environment Variables
 
@@ -86,7 +88,7 @@ You will see the build success message, and the `.jar` file will be generated in
 
 ### 7. Access the Application
 
-- Once the application is running, you can access it at `http://localhost:3002` (or your specified port).
+- Once the application is running, you can access it at `http://localhost:3002` (or your desired port set in application properties).
 
 ---
 
