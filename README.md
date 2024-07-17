@@ -2,7 +2,7 @@
 
 # EMS (Employee Management System) - Setup Guide
 
-EMS is a Spring Boot application designed for managing employees. It utilizes Thymeleaf and Bootstrap 4 for the frontend and connects to a MySQL database named `ems_liquibase`.
+EMS is a Spring Boot application designed for managing employees. It utilizes Thymeleaf and Bootstrap 4 for the frontend and connects to a MySQL database 
 
 ## Prerequisites
 
