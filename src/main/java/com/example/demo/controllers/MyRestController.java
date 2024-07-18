@@ -39,7 +39,7 @@ public class MyRestController {
 	@GetMapping("/hello")
 	public String getGreetad() {
 		logger.info("Received request to greet the application");
-		return "hi this is EMS application";
+		return "Hi this is EMS Application";
 	}
 
 	@GetMapping("/getall")
