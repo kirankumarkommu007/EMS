@@ -26,12 +26,9 @@ Before you begin, ensure you have the following installed:
    ```bash
    git checkout EMS_kiran
    ```
-   This branch contains the latest updates for the application.
-
-3. **Create a MySQL database**
-   - Create a MySQL database named **ems_liquibase**.
+   This branch contains the latest updates for the application..
      
-4. **Set MySQL Environment Variables**
+3. **Set MySQL Environment Variables**
    - Open Command Prompt
    - Navigate to Your Project Directory
       ```cmd
@@ -40,14 +37,16 @@ Before you begin, ensure you have the following installed:
    
     **WINDOWS**
      ```cmd
+     set MYSQL_DATABASE=your_database_name
      set MYSQL_USERNAME=your_mysql_username
-     set MYSQL_PWD=your_mysql_password
+     set MYSQL_PASSWORD=your_mysql_password
      ```
     **LINUX**
 
      ```bash
+     export MYSQL_DATABASE=your_database_name
      export MYSQL_USERNAME=your_mysql_username
-     export MYSQL_PWD=your_mysql_password
+     export MYSQL_PASSWORD=your_mysql_password
      ```
 
 6. **Build and Run the Application**
