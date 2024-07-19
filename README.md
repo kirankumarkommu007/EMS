@@ -68,7 +68,7 @@ Before you begin, ensure you have the following installed:
 8. **Access the Application**
 
    - Once the application is running, you can access it at `http://localhost:(your_port_number)/hello`.
-   - This is a public API to check whether the project is running; you will see the message "hi this is ems application".
+   - This is a public API to check whether the project is running; you will see the message "Hi this is EMS Application".
 
 ---
 
@@ -107,7 +107,7 @@ Before you begin, make sure you have the following installed on your system:
    - **Customizing Port (Optional)**:
      If you need to run the application on a specific port, set `SERVER_PORT` before running `docker-compose`:
      ```bash
-     SERVER_PORT=your_port_number docker-compose up --build
+     SERVER_PORT=your_port_number docker compose up --build
      ```
 
 4. **Access the Application**
