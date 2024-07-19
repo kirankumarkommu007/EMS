@@ -20,8 +20,9 @@ services:
       dockerfile: Dockerfile  # Dockerfile name
     container_name: springboot_container
     ports:
-      - "3002:3002"  
+      - "${SERVER_PORT:-3002}:${SERVER_PORT:-3002}"  
     environment:
+      SERVER_PORT: ${SERVER_PORT:-3002}
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/ems_liquibase
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Kiran@1226

@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/*.jar /app/ems.jar
 
 # Make port 3002 available to the world outside this container
-EXPOSE 3002
+EXPOSE ${SERVER_PORT}
 
 # Define the command to run the application
 ENTRYPOINT ["java", "-jar", "/app/ems.jar"]
